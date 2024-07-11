@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        h1{
+            color: tomato;
+        }
+        /* hover means mouse over  */
+        h1:hover{
+            color: white;
+            background-color:black;
+         /* do the style create any word or sentence by using hover */
+
+        }
+        /*  can create any style of input field by using focus*/
+        input:focus{
+            color:blue;
+            outline: 0;
+            /* padding: 10px; */
+            border: 1px solid tomato;
+        }
+        /* can create style link used to visiten/active/disable etc pseudo code */
+        a:visited{
+            color: tomato;
+        }
+        /* li:last-child{
+            color: red;
+        } */
+         /* doing create li nth-child, first-child etch pesudo code */
+         li:nth-child(2n+1){
+            color: orange;
+         }
+
+    </style>
+</head>
+
+<body>
+    <h1>My Heading </h1>
+    
+    <input type="text">
+    <input type="text">
+    <input type="text"><br>
+    <a href="https://google.com/">google</a>
+    <a href="https://moedu.gov.bd/">Ministry of Education</a>
+
+    <ul>
+        <li>Hasan</li>
+        <li>Banna</li>
+        <li>Afsana</li>
+        <li>Akhi</li>
+        <li>Rehana</li>
+    </ul>
+
+</body>
+
+
+</html>
